@@ -139,3 +139,28 @@ section .col img{
 section .col:hover img{
     transform: scale(1.1);
 }
+footer{
+    background-color: #363636;
+    color: white;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding:2rem 4rem;
+}
+h2{
+    text-transform: uppercase;
+}
+.h5{
+    width: 5rem;
+    content: "";
+    top: 100%;
+    left: 0;
+    border-top: 0.3rem solid #fff;
+}
+h4{
+    transition: margin-left 0.3s ease;
+}
+h4:hover{
+    margin-left:5px;
+}
